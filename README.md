@@ -31,7 +31,7 @@ lokation.getLocationOnce(object : Lokation.OnLokationResultCallback {
         if (result.isSuccessfull) {  
             Log.e("Location", result.location.toString())  
         } else {  
-            Log.e("error",result.errorCode.toString())  // LOCATION_SERVICE_DISABLED=-1  ,LOCATION_PERMISSION_NOT_GRANTED=-2  
+            Log.e("error",result.errorCode.toString())  // Lokation.LOCATION_SERVICE_DISABLED=-1  ,Lokation.LOCATION_PERMISSION_NOT_GRANTED=-2  
   }  
     }  
 })
