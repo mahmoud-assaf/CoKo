@@ -19,7 +19,7 @@ allprojects {
 - Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.mahmoud-assaf:CoKo:0.2'
+	        implementation 'com.github.mahmoud-assaf:CoKo:0.3'
 	}
 ```
 
