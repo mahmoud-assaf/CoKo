@@ -23,9 +23,11 @@ class Lokation constructor(private val mcontext: Context) {
     private var locationRequest: LocationRequest? = null
     private var locationCallback: LocationCallback? = null
     private var locationUpdateState = false
-
-    val LOCATION_SERVICE_DISABLED=-1
- val LOCATION_PERMISSION_NOT_GRANTED=-2
+companion object {
+	val LOCATION_SERVICE_DISABLED=-1
+ val LOCATION_PERMISSION_NOT_GRANTED=-2	
+	}
+    
 
     @SuppressLint("MissingPermission")
     fun getLocationOnce(onLokationResultCallback: OnLokationResultCallback) {
